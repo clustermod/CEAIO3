@@ -1,0 +1,36 @@
+name = "Clustermod"
+prefix = "ecm"
+author = "Cluster Mod Team"
+mainprefix = "z"
+
+[files]
+include = [
+    "*.dll",
+    "*.so",
+    "mod.cpp",
+    "README.md",
+    "AUTHORS.txt",
+    "LICENSE",
+    "logo_ecm3_ca.paa",
+    "meta.cpp",
+]
+
+[version]
+git_hash = 0
+
+[asc]
+enabled = true
+exclude = [] # Files to exclude from sqfc (sqf bytecode) conversions
+
+[hemtt.launch]
+workshop = [
+    "450814997", # CBA_A3's Workshop ID
+]
+parameters = [
+    "-skipIntro",
+    "-noSplash",
+    "-showScriptErrors",
+    "-debug",
+    "-filePatching",
+]
+executable = "arma3"

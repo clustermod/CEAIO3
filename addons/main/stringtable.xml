@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ECM">
+    <Package name="Main">
+        <Key ID="STR_ACE_Main_URL">
+            <English>https://cluster-community.com/</English>
+            <German>https://cluster-community.com/</German>
+            <Polish>https://cluster-community.com/</Polish>
+            <Portuguese>https://cluster-community.com/</Portuguese>
+            <Russian>https://cluster-community.com/</Russian>
+            <Czech>https://cluster-community.com/</Czech>
+            <Spanish>https://cluster-community.com/</Spanish>
+            <Italian>https://cluster-community.com/</Italian>
+            <French>https://cluster-community.com/</French>
+            <Korean>https://cluster-community.com/</Korean>
+            <Japanese>https://cluster-community.com/</Japanese>
+            <Chinesesimp>https://cluster-community.com/</Chinesesimp>
+            <Chinese>https://cluster-community.com/</Chinese>
+            <Hungarian>https://cluster-community.com/</Hungarian>
+            <Turkish>https://cluster-community.com/</Turkish>
+        </Key>
+    </Package>
+</Project>

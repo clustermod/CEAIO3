@@ -1,0 +1,11 @@
+{
+    "inputDirs": [
+        "P:/z/ecm/addons/"
+    ],
+    "includePaths": [
+        "P:/"
+    ],
+    "excludeList": [],
+    "outputDir": "P:/",
+    "workerThreads": 12
+}

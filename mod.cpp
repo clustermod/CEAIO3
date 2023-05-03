@@ -1,0 +1,12 @@
+name = "Clustermod";
+picture = "logo_ecm_ca.paa";
+actionName = "";
+action = "";
+description = "ECM3 - Version 2.1.1";
+logo = "logo_ecm_ca.paa";
+logoOver = "logo_ecm_ca.paa";
+tooltip = "ECM";
+tooltipOwned = "ECM Owned";
+overview = "ClusterMod is a modification adding various features and assets for the Cluster Community Unit.";
+author = "Cluster Mod Team";
+overviewPicture = "logo_ecm_ca.paa";

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ECM">
+    <Package name="Notepad">
+        <Key ID="STR_ECM_Notepad_notebook_displayName">
+            <English>Rite in the Rain notebook</English>
+            <German>Rite in the Rain notizbuch</German>
+            <Chinese>Rite in the Rain 筆記本</Chinese>
+            <Chinesesimp>Rite in the Rain 笔记本</Chinesesimp>
+            <Italian>Rite in the Rain taccuino</Italian>
+            <Czech>Rite in the Rain notebook</Czech>
+            <Japanese>Rite in the Rain ノート</Japanese>
+            <Polish>Rite in the Rain zeszyt</Polish>
+            <French>Rite in the Rain carnet</French>
+            <Portuguese>Rite in the Rain caderno</Portuguese>
+            <Spanish>Rite in the Rain computadora portátil</Spanish>
+            <Turkish>Rite in the Rain not defteri</Turkish>
+            <Russian>Rite in the Rain ноутбук</Russian>
+            <Korean>Rite in the Rain 공책</Korean>
+        </Key>
+        <Key ID="STR_ECM_Notepad_notebook_description">
+            <English>Rite in the Rain notebook. To take notes in.</English>
+            <German>Rite in the Rain notizbuch. Um sich Notizen zu machen.</German>
+            <Chinese>Rite in the Rain 筆記本。做筆記。</Chinese>
+            <Chinesesimp>Rite in the rain 笔记本。做笔记。</Chinesesimp>
+            <Italian>Rite in the Rain taccuino. Per prendere appunti.</Italian>
+            <Czech>Rite in the Rain notebook. Abych si dělal poznámky.</Czech>
+            <Japanese>Rite in the Rain ノート。でメモを取る。</Japanese>
+            <Polish>Rite in the Rain zeszyt. Aby robić notatki.</Polish>
+            <French>Rite in the Rain carnet. Pour prendre des notes.</French>
+            <Portuguese>Rite in the Rain caderno. Para fazer anotações em.</Portuguese>
+            <Spanish>Rite in the Rain computadora portátil. Para tomar notas en.</Spanish>
+            <Turkish>Rite in the Rain not defteri. Not almak için.</Turkish>
+            <Russian>Rite in the Rain hоутбук. Чтобы делать заметки.</Russian>
+            <Korean>Rite in the Rain 공책. 메모를 하려면.</Korean>
+        </Key>
+        <Key ID="STR_ECM_Notepad_fieldbook_displayName">
+            <English>Rite in the Rain fieldbook</English>
+            <German>Rite in the Rain feldbuch</German>
+            <Chinese>Rite in the Rain 外業手冊</Chinese>
+            <Chinesesimp>Rite in the Rain 外业手册</Chinesesimp>
+            <Italian>Rite in the Rain quaderno</Italian>
+            <Czech>Rite in the Rain učebnice</Czech>
+            <Japanese>Rite in the Rain フィールドブック/Japanese>
+            <Polish>Rite in the Rain książeczka polowa</Polish>
+            <French>Rite in the Rain carnet de terrain</French>
+            <Portuguese>Rite in the Rain livro de campo</Portuguese>
+            <Spanish>Rite in the Rain libro de campo</Spanish>
+            <Turkish>Rite in the Rain saha kitabı</Turkish>
+            <Russian>Rite in the Rain полевой журнал</Russian>
+            <Korean>Rite in the Rain 필드북</Korean>
+        </Key>
+        <Key ID="STR_ECM_Notepad_fieldbook_description">
+            <English>Rite in the Rain fieldbook. To take notes in.</English>
+            <German>Rite in the Rain feldbuch. Um sich Notizen zu machen.</German>
+            <Chinese>Rite in the Rain 外業手冊。做筆記。</Chinese>
+            <Chinesesimp>Rite in the rain 外业手册。做笔记。</Chinesesimp>
+            <Italian>Rite in the Rain quaderno. Per prendere appunti.</Italian>
+            <Czech>Rite in the Rain učebnice. Abych si dělal poznámky.</Czech>
+            <Japanese>Rite in the Rain フィールドブック。でメモを取る。</Japanese>
+            <Polish>Rite in the Rain książeczka polowa. Aby robić notatki.</Polish>
+            <French>Rite in the Rain carnet de terrain. Pour prendre des notes.</French>
+            <Portuguese>Rite in the Rain livro de campo. Para fazer anotações em.</Portuguese>
+            <Spanish>Rite in the Rain libro de campo. Para tomar notas en.</Spanish>
+            <Turkish>Rite in the Rain saha kitabı. Not almak için.</Turkish>
+            <Russian>Rite in the Rain полевой журнал. Чтобы делать заметки.</Russian>
+            <Korean>Rite in the Rain 필드북. 메모를 하려면.</Korean>
+        </Key>
+    </Package>
+</Project>
