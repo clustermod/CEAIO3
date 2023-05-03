@@ -1,0 +1,134 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Validate SQF",
+            "command": "${config:python.pythonPath}",
+            "options": {
+                "cwd": "${workspaceFolder}/tools"
+            },
+            "args": [
+                "sqf_validator.py"
+            ]
+        },
+        {
+            "label": "Validate Config",
+            "command": "${config:python.pythonPath}",
+            "options": {
+                "cwd": "${workspaceFolder}/tools"
+            },
+            "args": [
+                "config_style_checker.py"
+            ]
+        },
+        {
+            "label": "Validate Stringtables",
+            "command": "${config:python.pythonPath}",
+            "options": {
+                "cwd": "${workspaceFolder}/tools"
+            },
+            "args": [
+                "stringtable_validator.py"
+            ]
+        },
+        {
+            "label": "Check Strings",
+            "command": "${config:python.pythonPath}",
+            "options": {
+                "cwd": "${workspaceFolder}/tools"
+            },
+            "args": [
+                "check_strings.py"
+            ]
+        },
+        {
+            "label": "SQFVM Checker",
+            "command": "${config:python.pythonPath}",
+            "options": {
+                "cwd": "${workspaceFolder}/tools"
+            },
+            "args": [
+                "sqfvmChecker.py"
+            ]
+        },
+        {
+            "label": "Test All",
+            "dependsOn": [
+                "Validate SQF",
+                "Validate Config",
+                "Validate Stringtables",
+                "Check Strings",
+                "SQFVM Checker"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+        },
+        
+        {
+            "label": "Build: make.py (hemtt)",
+            "command": "${config:python.pythonPath}",
+            "options": {
+                "cwd": "${workspaceFolder}\\tools"
+            },
+            "args": [
+                "make.py",
+                "build",
+                "--log"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Dev Build: make.py (hemtt)",
+            "command": "${config:python.pythonPath}",
+            "options": {
+                "cwd": "${workspaceFolder}\\tools"
+            },
+            "args": [
+                "make.py",
+                "dev",
+                "--log"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Launch: make.py (hemtt)",
+            "command": "${config:python.pythonPath}",
+            "options": {
+                "cwd": "${workspaceFolder}\\tools"
+            },
+            "args": [
+                "make.py",
+                "launch",
+                "--log"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Release Build: make.py (hemtt)",
+            "command": "${config:python.pythonPath}",
+            "options": {
+                "cwd": "${workspaceFolder}\\tools"
+            },
+            "args": [
+                "make.py",
+                "release",
+                "--log"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

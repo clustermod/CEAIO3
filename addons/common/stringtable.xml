@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ECM">
-  <Package name="Common">
-    <Key ID="STR_ECM_Common_DisplayName">
-      <English>Common</English>
-      <German>Allgemein</German>
-      <Italian>Comune</Italian>
-      <Japanese>全般</Japanese>
-      <Chinese>通用</Chinese>
-      <Chinesesimp>通用</Chinesesimp>
-      <Korean>일반</Korean>
-      <Polish>Ogólny</Polish>
-      <Russian>Общие</Russian>
-      <Portuguese>Comum</Portuguese>
-      <Spanish>Común</Spanish>
-      <Czech>Obecné</Czech>
-      <French>Commun</French>
-    </Key>
-      <Key ID="STR_ECM_Common_ClusterTeam">
-      <English>Cluster Mod Team</English>
-      <German>Cluster Mod Team</German>
-      <Spanish>Cluster Mod Team</Spanish>
-      <Polish>Cluster Mod Team</Polish>
-      <Czech>Cluster Mod Team</Czech>
-      <French>Cluster Mod Team</French>
-      <Russian>Cluster Mod Team</Russian>
-      <Portuguese>Cluster Mod Team</Portuguese>
-      <Hungarian>Cluster Mod Team</Hungarian>
-      <Italian>Cluster Mod Team</Italian>
-      <Japanese>Cluster Mod Team</Japanese>
-      <Korean>Cluster Mod Team</Korean>
-      <Chinese>Cluster Mod Team</Chinese>
-      <Chinesesimp>Cluster Mod Team</Chinesesimp>
-      <Turkish>Cluster Mod Team</Turkish>
-    </Key>
-  </Package>
+    <Package name="Common">
+        <Key ID="STR_ECM_Common_DisplayName">
+            <English>Common</English>
+            <German>Allgemein</German>
+            <Italian>Comune</Italian>
+            <Japanese>全般</Japanese>
+            <Chinese>通用</Chinese>
+            <Chinesesimp>通用</Chinesesimp>
+            <Korean>일반</Korean>
+            <Polish>Ogólny</Polish>
+            <Russian>Общие</Russian>
+            <Portuguese>Comum</Portuguese>
+            <Spanish>Común</Spanish>
+            <Czech>Obecné</Czech>
+            <French>Commun</French>
+        </Key>
+        <Key ID="STR_ECM_Common_ClusterTeam">
+            <English>Cluster Mod Team</English>
+            <German>Cluster Mod Team</German>
+            <Spanish>Cluster Mod Team</Spanish>
+            <Polish>Cluster Mod Team</Polish>
+            <Czech>Cluster Mod Team</Czech>
+            <French>Cluster Mod Team</French>
+            <Russian>Cluster Mod Team</Russian>
+            <Portuguese>Cluster Mod Team</Portuguese>
+            <Hungarian>Cluster Mod Team</Hungarian>
+            <Italian>Cluster Mod Team</Italian>
+            <Japanese>Cluster Mod Team</Japanese>
+            <Korean>Cluster Mod Team</Korean>
+            <Chinese>Cluster Mod Team</Chinese>
+            <Chinesesimp>Cluster Mod Team</Chinesesimp>
+            <Turkish>Cluster Mod Team</Turkish>
+        </Key>
+    </Package>
 </Project>

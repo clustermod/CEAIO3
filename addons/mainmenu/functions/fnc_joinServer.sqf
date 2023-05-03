@@ -1,7 +1,6 @@
 #include "\A3\Ui_f\hpp\defineResincl.inc"
 
-params 								
-[
+params [
     ["_buttons", []],
     ["_IP", "127.0.0.1"], 
     ["_PORT", "2302"],

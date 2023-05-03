@@ -28,11 +28,11 @@ class Video: RscVideo {
 };
 
 class GroupPicture: RscControlsGroupNoScrollbars {
-	x = 0;
-	y = 0;
-	w = "10 * 	(pixelW * pixelGridNoUIScale * 2)";
-	h = "10 * 	(pixelH * pixelGridNoUIScale * 2)";
-	class Controls {};
+    x = 0;
+    y = 0;
+    w = "10 * 	(pixelW * pixelGridNoUIScale * 2)";
+    h = "10 * 	(pixelH * pixelGridNoUIScale * 2)";
+    class Controls {};
 };
 
 class Overlay: RscPicture {
@@ -86,39 +86,39 @@ class GroupHover: RscControlsGroupNoScrollbars {
 };
 
 class TextBackground: RscPicture {
-	idc = 1029;
-	text = "\a3\Ui_f\data\GUI\Rsc\RscDisplayMain\spotlight_backgroundText_ca.paa";
-	colorText[] = {0,0,0,0.5};
-	x = 0;
-	y = 0;
-	w = "10 * 	(pixelW * pixelGridNoUIScale * 2)";
-	h = "10 * 	(pixelH * pixelGridNoUIScale * 2)";
+    idc = 1029;
+    text = "\a3\Ui_f\data\GUI\Rsc\RscDisplayMain\spotlight_backgroundText_ca.paa";
+    colorText[] = {0,0,0,0.5};
+    x = 0;
+    y = 0;
+    w = "10 * 	(pixelW * pixelGridNoUIScale * 2)";
+    h = "10 * 	(pixelH * pixelGridNoUIScale * 2)";
 };
 
 class Text: RscStructuredText {
-	idc = 1028;
-	size = "1.00 * 	(pixelH * pixelGridNoUIScale * 2)";
-	shadow = 2;
-	x = 0;
-	y = 0;
-	w = "10 * 	(pixelW * pixelGridNoUIScale * 2)";
-	h = "10 * 	(pixelH * pixelGridNoUIScale * 2)";
-	class Attributes {
-		align = "center";
-		color = "#ffffff";
-		font = "PuristaBold";
-	};
+    idc = 1028;
+    size = "1.00 * 	(pixelH * pixelGridNoUIScale * 2)";
+    shadow = 2;
+    x = 0;
+    y = 0;
+    w = "10 * 	(pixelW * pixelGridNoUIScale * 2)";
+    h = "10 * 	(pixelH * pixelGridNoUIScale * 2)";
+    class Attributes {
+        align = "center";
+        color = "#ffffff";
+        font = "PuristaBold";
+    };
 };
 
 class Button: RscButton {
-	idc = 1026;
-	colorBackground[] = {0,0,0,0};
-	colorBackgroundActive[] = {0,0,0,0};
-	colorBackgroundDisabled[] = {0,0,0,0};
-	colorFocused[] = {0,0,0,0};
-	colorDisabled[] = {0,0,0,0};
-	x = 0;
-	y = 0;
-	w = "10 * 	(pixelW * pixelGridNoUIScale * 2)";
-	h = "10 * 	(pixelH * pixelGridNoUIScale * 2)";
+    idc = 1026;
+    colorBackground[] = {0,0,0,0};
+    colorBackgroundActive[] = {0,0,0,0};
+    colorBackgroundDisabled[] = {0,0,0,0};
+    colorFocused[] = {0,0,0,0};
+    colorDisabled[] = {0,0,0,0};
+    x = 0;
+    y = 0;
+    w = "10 * 	(pixelW * pixelGridNoUIScale * 2)";
+    h = "10 * 	(pixelH * pixelGridNoUIScale * 2)";
 };

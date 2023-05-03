@@ -2,20 +2,20 @@
 <Project name="ECM">
     <Package name="Notepad">
         <Key ID="STR_ECM_Notepad_notebook_displayName">
-            <English>Rite in the Rain notebook</English>
-            <German>Rite in the Rain notizbuch</German>
-            <Chinese>Rite in the Rain 筆記本</Chinese>
-            <Chinesesimp>Rite in the Rain 笔记本</Chinesesimp>
-            <Italian>Rite in the Rain taccuino</Italian>
-            <Czech>Rite in the Rain notebook</Czech>
-            <Japanese>Rite in the Rain ノート</Japanese>
-            <Polish>Rite in the Rain zeszyt</Polish>
-            <French>Rite in the Rain carnet</French>
-            <Portuguese>Rite in the Rain caderno</Portuguese>
-            <Spanish>Rite in the Rain computadora portátil</Spanish>
-            <Turkish>Rite in the Rain not defteri</Turkish>
-            <Russian>Rite in the Rain ноутбук</Russian>
-            <Korean>Rite in the Rain 공책</Korean>
+            <English>Nnotebook</English>
+            <German>Notizbuch</German>
+            <Chinese>筆記本</Chinese>
+            <Chinesesimp>笔记本</Chinesesimp>
+            <Italian>Taccuino</Italian>
+            <Czech>Notebook</Czech>
+            <Japanese>ノート</Japanese>
+            <Polish>Zeszyt</Polish>
+            <French>Carnet</French>
+            <Portuguese>Caderno</Portuguese>
+            <Spanish>Computadora portátil</Spanish>
+            <Turkish>Not defteri</Turkish>
+            <Russian>ноутбук</Russian>
+            <Korean>공책</Korean>
         </Key>
         <Key ID="STR_ECM_Notepad_notebook_description">
             <English>Rite in the Rain notebook. To take notes in.</English>
@@ -34,20 +34,20 @@
             <Korean>Rite in the Rain 공책. 메모를 하려면.</Korean>
         </Key>
         <Key ID="STR_ECM_Notepad_fieldbook_displayName">
-            <English>Rite in the Rain fieldbook</English>
-            <German>Rite in the Rain feldbuch</German>
-            <Chinese>Rite in the Rain 外業手冊</Chinese>
-            <Chinesesimp>Rite in the Rain 外业手册</Chinesesimp>
-            <Italian>Rite in the Rain quaderno</Italian>
-            <Czech>Rite in the Rain učebnice</Czech>
-            <Japanese>Rite in the Rain フィールドブック/Japanese>
-            <Polish>Rite in the Rain książeczka polowa</Polish>
-            <French>Rite in the Rain carnet de terrain</French>
-            <Portuguese>Rite in the Rain livro de campo</Portuguese>
-            <Spanish>Rite in the Rain libro de campo</Spanish>
-            <Turkish>Rite in the Rain saha kitabı</Turkish>
-            <Russian>Rite in the Rain полевой журнал</Russian>
-            <Korean>Rite in the Rain 필드북</Korean>
+            <English>Fieldbook</English>
+            <German>Feldbuch</German>
+            <Chinese>外業手冊</Chinese>
+            <Chinesesimp>外业手册</Chinesesimp>
+            <Italian>Quaderno</Italian>
+            <Czech>Učebnice</Czech>
+            <Japanese>フィールドブック</Japanese>
+            <Polish>Książeczka polowa</Polish>
+            <French>Carnet de terrain</French>
+            <Portuguese>Livro de campo</Portuguese>
+            <Spanish>Libro de campo</Spanish>
+            <Turkish>Saha kitabı</Turkish>
+            <Russian>Nолевой журнал</Russian>
+            <Korean>필드북</Korean>
         </Key>
         <Key ID="STR_ECM_Notepad_fieldbook_description">
             <English>Rite in the Rain fieldbook. To take notes in.</English>

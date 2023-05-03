@@ -1,8 +1,8 @@
 #define COMPONENT notepad
 #define COMPONENT_BEAUTIFIED Notepad
-#include "\z\ecm\addons\main\script_mod.hpp"
+#include "\z\ccm\addons\main\script_mod.hpp"
 
-#include "\z\ecm\addons\main\script_macros.hpp"
+#include "\z\ccm\addons\main\script_macros.hpp"
 
 #define NAME_FIELDBOOK Fieldbook
 #define CTRL_FIELDBOOK 500

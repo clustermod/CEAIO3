@@ -1,5 +1,5 @@
-name = "Clustermod"
-prefix = "ecm"
+name = "Cluster Community Mod"
+prefix = "ccm"
 author = "Cluster Mod Team"
 mainprefix = "z"
 
@@ -11,7 +11,7 @@ include = [
     "README.md",
     "AUTHORS.txt",
     "LICENSE",
-    "logo_ecm3_ca.paa",
+    "logo_ecm_ca.paa",
     "meta.cpp",
 ]
 
@@ -20,7 +20,12 @@ git_hash = 0
 
 [asc]
 enabled = true
-exclude = [] # Files to exclude from sqfc (sqf bytecode) conversions
+exclude = [
+  "dev"
+]
+
+[hemtt.config]
+preset = "Hemtt"
 
 [hemtt.launch]
 workshop = [
