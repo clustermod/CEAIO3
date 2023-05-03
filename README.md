@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/clustermod/CCM3/master/extras/assets/logo/black/ccm3_logo_trans.png" width="480">
+    <img src="https://raw.githubusercontent.com/clustermod/CCM3/main/extras/assets/logo/black/ccm3_logo_trans.png" width="480">
 </p>
 
 <p align="center">
