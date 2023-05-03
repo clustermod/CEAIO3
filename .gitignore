@@ -13,6 +13,7 @@ Thumbs.db
 *.swo
 texHeaders.bin
 CHANGELOG.md
+releases/*
 TODO.md
 sqfvm.exe
 ArmaScriptCompiler.exe

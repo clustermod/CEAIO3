@@ -46,6 +46,26 @@ HEMTTPATH = ARGS.HEMTT
 with open(CONFIGPATH, "rb") as f:
     CONFIG = tomli.load(f)
 
+# Increment Build version and get entire version number
+def build_increment():
+    script_version_path = "{0}\\addons\\main\\script_version.hpp".format(PROJECTPATH);
+
+    with open(script_version_path, 'r') as file :
+      script_version = file.read()
+    
+    major_index = script_version.find("#define MAJOR ") + 14;
+    minor_index = script_version.find("#define MINOR ") + 14;
+    patch_index = script_version.find("#define PATCHLVL ") + 17;
+    build_index = script_version.find("#define BUILD ") + 14;
+    script_build_version = int(script_version[build_index])
+    script_build_version += 1
+    script_version = script_version[:build_index] + str(script_build_version) + script_version[build_index + 1:]
+
+    with open(script_version_path, 'w') as file:
+      file.write(script_version)
+    
+    return "{0}.{1}.{2}.{3}".format(script_version[major_index], script_version[minor_index], script_version[patch_index], script_version[build_index]);
+
 # Build release
 def addon_release():
     print(bcolors.WARNING + "****************BUILDING RELEASE {0}****************".format(CONFIG['name'].upper()) + bcolors.ENDC)
@@ -67,7 +87,8 @@ def addon_release():
 
 # Build
 def addon_build():
-    print(bcolors.WARNING + "****************BUILDING {0}****************".format(CONFIG['name'].upper()) + bcolors.ENDC)
+    script_version = build_increment()
+    print(bcolors.WARNING + "****************Building {0} {1}****************".format(CONFIG['name'], script_version) + bcolors.ENDC)
     cmd = [HEMTTPATH, "build"]
     if ARGS.log: cmd.append("-v")
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
@@ -87,7 +108,8 @@ def addon_build():
 
 # Build and launch
 def addon_launch():
-    print(bcolors.WARNING + "****************BUILDING {0}****************".format(CONFIG['name'].upper()) + bcolors.ENDC)
+    script_version = build_increment()
+    print(bcolors.WARNING + "****************Building {0} {1}****************".format(CONFIG['name'], script_version) + bcolors.ENDC)
     cmd = [HEMTTPATH, "launch"]
     if ARGS.log: cmd.append("-v")
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
@@ -107,7 +129,8 @@ def addon_launch():
 
 # Build and filepatch
 def addon_dev():
-    print(bcolors.WARNING + "****************BUILDING {0}****************".format(CONFIG['name'].upper()) + bcolors.ENDC)
+    script_version = build_increment()
+    print(bcolors.WARNING + "****************Building {0} {1}****************".format(CONFIG['name'], script_version) + bcolors.ENDC)
     cmd = [HEMTTPATH, "dev"]
     if ARGS.log: cmd.append("-v")
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
