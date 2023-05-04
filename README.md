@@ -15,7 +15,7 @@
     <a href="https://github.com/clustermod/CCM3/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/clustermod/CCM3?style=flat-square" alt="License">
     </a>
-    <a href="https://discord.gg/MBP64PWz">
+    <a href="https://discord.gg/6Sq6hDgbGF">
         <img src="https://img.shields.io/badge/Discord-Join-darkviolet.svg?style=flat-square" alt="Cluster Discord"">
     </a>
 </p>

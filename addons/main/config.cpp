@@ -23,6 +23,6 @@ class CfgMods {
         hideName = "true";
         actionName = "Website";
         action = CSTRING(URL);
-        description = "A client-modification for cluster community. Contains alot of random stuff";
+        description = "Issue Tracker: https://github.com/clustermod/CCM3/issues";
     };
 };
