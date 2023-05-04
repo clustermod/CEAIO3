@@ -22,7 +22,7 @@ All good? Then proceed and fill out the items below.
 -->
 
 **Version:**
-- **CCM3:** `2.x.x` [e.g. 2.0.0 stable, commit hash]
+- **CCA3:** `0.x.x` [e.g. 0.0.0 stable, commit hash]
 
 **Description:**
 A clear and concise description of what the bug is.

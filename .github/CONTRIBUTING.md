@@ -2,17 +2,17 @@
 
 ## Before reporting
 
-If you have found an issue with CCM3 please make sure that CCM3 really is the cause of the problem. To do this try to reproduce the issue with using only `CCM3` on a newly created mission.
+If you have found an issue with CCA3 please make sure that CCA3 really is the cause of the problem. To do this try to reproduce the issue with using only `CCA3` on a newly created mission.
 
 Indicate if the issue appears on stable or development version. In case it is the development version, please also include the commit SHA-1 hash.
 
 **Please note:**
-- It's not a valid to simply remove <code>CCM3</code> from the mission to confirm that CCM3 is the culprit.
+- It's not a valid to simply remove <code>CCA3</code> from the mission to confirm that CCA3 is the culprit.
 - If the error happens when using a <b>third-party script or framework</b> contact the author of the appropriate mod and report the issue there.
 
 ## Reporting the issue
 
-Head over to the [CCM3 GitHub issue tracker](https://github.com/clustermod/CCM3/issues) and press the [New issue](https://github.com/clustermod/CCM3/issues/new) button in the top right corner. Add a descriptive title and complete the issue template.
+Head over to the [CCA3 GitHub issue tracker](https://github.com/clustermod/CCA3/issues) and press the [New issue](https://github.com/clustermod/CCA3/issues/new) button in the top right corner. Add a descriptive title and complete the issue template.
 
 A video of the issue might be helpful in resolving it faster.
 
@@ -28,7 +28,7 @@ Following their approval, feature requests may be moved by moderators to a separ
 
 # Contributing to the project
 
-We welcome anyone to contribute to this repository. Issues that we are actively seeking help with, are marked as [`help wanted`](https://github.com/clustermod/CCM3/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22). Feel free to pick up any of those issues.
+We welcome anyone to contribute to this repository. Issues that we are actively seeking help with, are marked as [`help wanted`](https://github.com/clustermod/CCA3/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22). Feel free to pick up any of those issues.
 
 ## Pull Request process
 
@@ -44,4 +44,4 @@ Please note that all contributors to this project are volunteers and do this in 
 
 ## Assistance with contributing
 
-If you require assistance with contributing, join our [Discord](https://discord.com/invite/6Sq6hDgbGF) and ask any of the clustermod team. Additional documentation can be found on our [Wiki](https://wiki.cluster-community.com/index.php?title=Category:Cluster_Community_Mod_(CCM3)).
+If you require assistance with contributing, join our [Discord](https://discord.com/invite/6Sq6hDgbGF) and ask any of the clustermod team. Additional documentation can be found on our [Wiki](https://wiki.cluster-community.com/index.php?title=Category:Cluster_Community_Mod_(CCA3)).
