@@ -12,7 +12,7 @@
  *   - Animation speed <NUMBER>
  * 
  * Example:
- * [] call cem_movement_fnc_getSpeed
+ * [] call ceaio_movement_fnc_getSpeed
  * 
  * Public: Yes
  */

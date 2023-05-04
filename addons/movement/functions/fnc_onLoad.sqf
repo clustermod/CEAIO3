@@ -11,7 +11,7 @@
  * None
  * 
  * Example:
- * [] call cem_movement_fnc_onLoad
+ * [] call ceaio_movement_fnc_onLoad
  * 
  * Public: No
  */

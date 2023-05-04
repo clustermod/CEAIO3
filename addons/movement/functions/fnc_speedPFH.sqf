@@ -10,7 +10,7 @@
  * None
  * 
  * Example:
- * [] call cem_movement_fnc_speedPFH
+ * [] call ceaio_movement_fnc_speedPFH
  * 
  * Public: No
  */

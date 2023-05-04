@@ -16,13 +16,13 @@ class CfgPatches {
 
 class CfgMods {
     class PREFIX {
-        dir = "@cem";
-        name = "CE: Movement";
+        dir = "@ceaio";
+        name = "CE: All-In-One";
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
         hidePicture = "true";
         hideName = "true";
         actionName = "Website";
         action = CSTRING(URL);
-        description = "Issue Tracker: https://github.com/clustermod/CEM3/issues";
+        description = "Issue Tracker: https://github.com/clustermod/CEAIO3/issues";
     };
 };

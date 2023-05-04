@@ -1,5 +1,5 @@
 #define MAINPREFIX z
-#define PREFIX cem
+#define PREFIX ceaio
 
 #include "script_version.hpp"
 
@@ -11,7 +11,7 @@
 #define REQUIRED_CBA_VERSION {3,15,6}
 
 #ifdef COMPONENT_BEAUTIFIED
-    #define COMPONENT_NAME QUOTE(CE:M - COMPONENT_BEAUTIFIED)
+    #define COMPONENT_NAME QUOTE(CE:AIO - COMPONENT_BEAUTIFIED)
 #else
-    #define COMPONENT_NAME QUOTE(CE:M - COMPONENT)
+    #define COMPONENT_NAME QUOTE(CE:AIO - COMPONENT)
 #endif

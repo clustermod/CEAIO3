@@ -10,7 +10,7 @@
  * Stance <NUMBER>
  *
  * Example:
- * call cem_movement_fnc_getStance
+ * call ceaio_movement_fnc_getStance
  *
  * Public: Yes
  */

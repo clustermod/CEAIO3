@@ -9,7 +9,7 @@
  * Value <TYPE>
  * 
  * Example:
- * [] call cem_[module]_fnc_[functionName]
+ * [] call ceaio_[module]_fnc_[functionName]
  * 
  * Public: [yes/no]
  */

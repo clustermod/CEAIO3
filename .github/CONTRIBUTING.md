@@ -2,17 +2,17 @@
 
 ## Before reporting
 
-If you have found an issue with CE:M please make sure that CE:M really is the cause of the problem. To do this try to reproduce the issue with using only `CE:M` on a newly created mission.
+If you have found an issue with CE:AIO please make sure that CE:AIO really is the cause of the problem. To do this try to reproduce the issue with using only `CE:AIO` on a newly created mission.
 
 Indicate if the issue appears on stable or development version. In case it is the development version, please also include the commit SHA-1 hash.
 
 **Please note:**
-- It's not a valid to simply remove <code>CE:M</code> from the mission to confirm that CE:M is the culprit.
+- It's not a valid to simply remove <code>CE:AIO</code> from the mission to confirm that CE:AIO is the culprit.
 - If the error happens when using a <b>third-party script or framework</b> contact the author of the appropriate mod and report the issue there.
 
 ## Reporting the issue
 
-Head over to the [CE:M GitHub issue tracker](https://github.com/clustermod/CEM3/issues) and press the [New issue](https://github.com/clustermod/CEM3/issues/new) button in the top right corner. Add a descriptive title and complete the issue template.
+Head over to the [CE:AIO GitHub issue tracker](https://github.com/clustermod/CEAIO3/issues) and press the [New issue](https://github.com/clustermod/CEAIO3/issues/new) button in the top right corner. Add a descriptive title and complete the issue template.
 
 A video of the issue might be helpful in resolving it faster.
 
@@ -28,7 +28,7 @@ Following their approval, feature requests may be moved by moderators to a separ
 
 # Contributing to the project
 
-We welcome anyone to contribute to this repository. Issues that we are actively seeking help with, are marked as [`help wanted`](https://github.com/clustermod/CEM3/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22). Feel free to pick up any of those issues.
+We welcome anyone to contribute to this repository. Issues that we are actively seeking help with, are marked as [`help wanted`](https://github.com/clustermod/CEAIO3/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22). Feel free to pick up any of those issues.
 
 ## Pull Request process
 
@@ -44,4 +44,4 @@ Please note that all contributors to this project are volunteers and do this in 
 
 ## Assistance with contributing
 
-If you require assistance with contributing, join our [Discord](https://discord.com/invite/6Sq6hDgbGF) and ask any of the clustermod team. Additional documentation can be found on our [Wiki](https://wiki.cluster-community.com/index.php?title=Category:Cluster_Community_Mod_(CEM3)).
+If you require assistance with contributing, join our [Discord](https://discord.com/invite/6Sq6hDgbGF) and ask any of the clustermod team. Additional documentation can be found on our [Wiki](https://wiki.cluster-community.com/index.php?title=Category:Cluster_Community_Mod_(CEAIO3)).
