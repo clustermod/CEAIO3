@@ -1,0 +1,3 @@
+_alouette3 = _this select 0;
+
+_alouette3 animate ["hide_strellabox", 1];

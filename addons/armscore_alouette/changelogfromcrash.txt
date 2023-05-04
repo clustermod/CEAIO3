@@ -1,0 +1,18 @@
+-Cleaned up and simplified properties - All Lods
+-Simplified Physx Lod
+-Cleaned up and removed excess UVs
+-Removed isolated points from Shadowlod 0
+-Fixed degenerated faces from Shadowlod 0
+-Removed textures from Shadowlod 0
+-Removed gravity 1-5 from components (those boxes now invisible to collision)
+-Open topology on Geo lod fixed
+-Open topology in View Geo lod fixed
+-Added prop blur selections 
+-Added prop blur
+-Updated model cfg
+-Updated cfgVehicles
+-Fixed duplicated turrets class
+-Added shadow to gun on KCAR version
+-Repaired degenerated faces on KCAR version
+-SF version changed viewpilot to viewcargo 
+-Added cargo/pilot proxies to fire geo lod on _X12 version

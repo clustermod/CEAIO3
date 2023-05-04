@@ -1,0 +1,15 @@
+this setObjectTexture [0, "\ARMSCor_Alouette_III\data\AlouetteIII_co.paa"];
+this setObjectTexture [0, "\ARMSCor_Alouette_III\data\AlouetteIII_rdf_co.paa"];
+this setObjectTexture [0, "\ARMSCor_Alouette_III\data\AlouetteIII_zim_co.paa"];
+this setObjectTexture [0, "\ARMSCor_Alouette_III\data\AlouetteIII_unza_co.paa"];
+this setObjectTexture [0, "\ARMSCor_Alouette_III\data\AlouetteIII_au_co.paa"];
+this setObjectTexture [0, "\ARMSCor_Alouette_III\data\AlouetteIII_pmc_co.paa"];
+this setObjectTexture [0, "\ARMSCor_Alouette_III\data\AlouetteIII_indp_co.paa"];
+this setObjectTexture [0, "\ARMSCor_Alouette_III\data\AlouetteIII_bumblebee_co.paa"];
+this setObjectTexture [0, "\ARMSCor_Alouette_III\data\AlouetteIII_angola_co.paa"];
+
+this animate ["Hide_StrellaBox",1];  //Vissable
+this animate ["Hide_StrellaBox",0];  //Hidden
+
+this animate ["door_b_l",0]; //Open
+this animate ["door_b_r",0]; //Open

@@ -1,5 +1,5 @@
 #define MAINPREFIX z
-#define PREFIX ccm
+#define PREFIX cca
 
 #include "script_version.hpp"
 
@@ -11,7 +11,7 @@
 #define REQUIRED_CBA_VERSION {3,15,6}
 
 #ifdef COMPONENT_BEAUTIFIED
-    #define COMPONENT_NAME QUOTE(CCM - COMPONENT_BEAUTIFIED)
+    #define COMPONENT_NAME QUOTE(CCA - COMPONENT_BEAUTIFIED)
 #else
-    #define COMPONENT_NAME QUOTE(CCM - COMPONENT)
+    #define COMPONENT_NAME QUOTE(CCA - COMPONENT)
 #endif

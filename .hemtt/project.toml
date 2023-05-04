@@ -1,5 +1,5 @@
-name = "Cluster Community Mod"
-prefix = "ccm"
+name = "Cluster Community Assets"
+prefix = "cca"
 author = "Cluster Mod Team"
 mainprefix = "z"
 
@@ -11,8 +11,11 @@ include = [
     "README.md",
     "AUTHORS.txt",
     "LICENSE",
-    "logo_ccm_ca.paa",
+    "logo_cca_ca.paa",
     "meta.cpp",
+]
+exclude = [
+    "addons/*/README.md"
 ]
 
 [version]
