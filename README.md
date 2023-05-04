@@ -25,13 +25,15 @@
     Visit us on <a href="https://www.youtube.com/channel/UCHvqA1frU_R9cqCW_5rmM4w">YouTube</a></strong></sup>
 </p>
 
-**CEM3** is an effort by the **Cluster Community Mod Team** to enhance the individual experience by our playerbase.
+**CE:M** is the collaborative effort of the **Cluster Community Mod Team**. It is a part of a broader collection of mods designed to enhance the experience of players in our community.
 
 This addon is entirely open source and all contributions are welcome. Feel free to maintain your own custom version, so long as the changes you make are open to the public in accordance with the GNU General Public License ([GPLv3](https://github.com/Clustermod/CEM3/blob/master/LICENSE)).
 
-An attempt has been made to build the addon modularly so almost any *module* can easily be removed from the configuration. This way, a team can maintain it's own tailored version of **CEM3** by simply excluding any components they don't need. The entire framework has been built with customization in mind allowing mission designers to tweak it to suit their needs.
+## What is CE:M?
+*CE:M* is an Arma 3 addon that allows for more fine tuned control over movement speed. It takes heavy inspiration from the popular game Escape from Tarkov by Battlestate Games, and should be familiar to anyone who has played Escape from Tarkov previously.
+The mod also sports an entirely new optional modular UI to visualize the players current speed and stance similar to the one used in Escape from Tarkov.
 
-It should be noted that **CEM3** has been developed with **Cluster Community** as it's focus and therefore might contain features that won't work with all playstyles.
+An attempt has been made to build the addon modularly so almost any *module* can easily be removed from the configuration. This way, a team can maintain it's own tailored version of **CEM3** by simply excluding any components they don't need. The entire framework has been built with customization in mind allowing mission designers to tweak it to suit their needs.
 
 ## Contributing
 You can help out with the ongoing development by looking for potential bugs in the framework, or by contributing new features. We are always welcoming new pull requests containing bug fixes, refactors and new features.
