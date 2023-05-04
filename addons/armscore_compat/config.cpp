@@ -16,7 +16,7 @@ class CfgPatches {
           "ccm_magazines_1000_127x99"
         };
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ccm_main"};
+        requiredAddons[] = {"ccm_common"};
         author = ECSTRING(common,ClusterTeam);
         authors[] = {"Eric"};
         url = ECSTRING(main,URL);

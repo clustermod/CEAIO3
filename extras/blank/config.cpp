@@ -15,6 +15,3 @@ class CfgPatches {
 };
 
 #include "CfgEventHandlers.hpp"
-#include "CfgMarkerClasses.hpp"
-#include "CfgMarkers.hpp"
-// #include "CfgMarkerColors.hpp"
