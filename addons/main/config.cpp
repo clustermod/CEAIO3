@@ -16,13 +16,13 @@ class CfgPatches {
 
 class CfgMods {
     class PREFIX {
-        dir = "@cca";
-        name = "Cluster Community Assets";
+        dir = "@cem";
+        name = "CE: Movement";
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
         hidePicture = "true";
         hideName = "true";
         actionName = "Website";
         action = CSTRING(URL);
-        description = "Issue Tracker: https://github.com/clustermod/CCA3/issues";
+        description = "Issue Tracker: https://github.com/clustermod/CEM3/issues";
     };
 };

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="CCA">
+<Project name="CEM">
     <Package name="Common">
-        <Key ID="STR_CCA_Common_DisplayName">
+        <Key ID="STR_CEM_Common_DisplayName">
             <English>Common</English>
             <German>Allgemein</German>
             <Italian>Comune</Italian>
@@ -16,7 +16,7 @@
             <Czech>Obecné</Czech>
             <French>Commun</French>
         </Key>
-        <Key ID="STR_CCA_Common_ClusterTeam">
+        <Key ID="STR_CEM_Common_ClusterTeam">
             <English>Cluster Mod Team</English>
             <German>Cluster Mod Team</German>
             <Spanish>Cluster Mod Team</Spanish>

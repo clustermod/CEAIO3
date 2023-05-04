@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="CEM">
+  <Package name="Movement">
+    <Key ID="STR_cem_movement_DisplayName">
+      <English>Movement</English>
+    </Key>
+    <Key ID="STR_cem_movement_Category">
+      <English>Movement</English>
+    </Key>
+    <Key ID="STR_cem_movement_ShowStanceIndicator">
+      <English>Show Stance Indicator</English>
+    </Key>
+    <Key ID="STR_cem_movement_ShowStanceIndicatorTooltip">
+      <English>Shows/Hides the image indicator of current player stance.</English>
+    </Key>
+    <Key ID="STR_cem_movement_MovementSpeedUp">
+      <English>Increase movement speed</English>
+    </Key>
+    <Key ID="STR_cem_movement_MovementSpeedUpTooltip">
+      <English>Increases the players movement speed.</English>
+    </Key>
+    <Key ID="STR_cem_movement_MovementSpeedDown">
+      <English>Decrease movement speed</English>
+    </Key>
+    <Key ID="STR_cem_movement_MovementSpeedDownTooltip">
+      <English>Decreases the players movement speed.</English>
+    </Key>
+    <Key ID="STR_cem_movement_ShowSpeedSlider">
+      <English>Show speed slider</English>
+    </Key>
+    <Key ID="STR_cem_movement_ShowSpeedSliderTooltip">
+      <English>Shows the players speed in a slider in the bottom left.</English>
+    </Key>
+    <Key ID="STR_cem_movement_ShowStanceSlider">
+      <English>Show stance slider</English>
+    </Key>
+    <Key ID="STR_cem_movement_ShowStanceSliderTooltip">
+      <English>Shows the players stance slider in the bottom left.</English>
+    </Key>
+  </Package>
+</Project>
