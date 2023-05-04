@@ -1,7 +1,7 @@
 class CfgAmmo {
     class B_127x99_SLAP_Tracer_Red;
 
-    class ecm_ammo_127x99_slap: B_127x99_SLAP_Tracer_Red {
+    class ccm_ammo_127x99_slap: B_127x99_SLAP_Tracer_Red {
         cost = 3;
         hit = 30;
         indirectHit = 0;

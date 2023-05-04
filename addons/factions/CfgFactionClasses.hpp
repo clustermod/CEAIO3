@@ -1,6 +1,6 @@
 class CfgFactionClasses {
-    class ecm_factions_rhodesianFireforce {
-        displayName = "ECM: Rhodesian Fireforce";
+    class ccm_factions_rhodesianFireforce {
+        displayName = "CCM: Rhodesian Fireforce";
         author = "Eric";
         icon = QPATHTOF(UI\icon_editor_fireforce_ca.paa);
         priority = 2;

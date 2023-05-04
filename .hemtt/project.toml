@@ -11,7 +11,7 @@ include = [
     "README.md",
     "AUTHORS.txt",
     "LICENSE",
-    "logo_ecm_ca.paa",
+    "logo_ccm_ca.paa",
     "meta.cpp",
 ]
 

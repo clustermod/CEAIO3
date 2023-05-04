@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ECM">
+<Project name="CCM">
     <Package name="Main">
-        <Key ID="STR_ECM_Main_URL">
+        <Key ID="STR_CCM_Main_URL">
             <English>https://cluster-community.com/</English>
             <German>https://cluster-community.com/</German>
             <Polish>https://cluster-community.com/</Polish>

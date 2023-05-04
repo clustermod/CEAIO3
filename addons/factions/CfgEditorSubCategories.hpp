@@ -1,5 +1,5 @@
 class CfgEditorSubcategories {
-    class ecm_categories_rhodesia_helicopters {
+    class ccm_categories_rhodesia_helicopters {
         displayName = "Helicopters";
     };
 };

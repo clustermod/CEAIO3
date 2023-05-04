@@ -5,7 +5,7 @@ class CfgWeapons {
     class RocketPods;
     class HMG_127;
 
-    class ecm_weapons_mastersafe: RocketPods {
+    class ccm_weapons_mastersafe: RocketPods {
         CanLock = 0;
         displayName = "MASTER ARM - SAFE";
         displayNameMagazine = "MASTER ARM - SAFE";
@@ -21,7 +21,7 @@ class CfgWeapons {
         magazineReloadTime = 0.1;
     };
 
-    class ecm_weapons_f2_cannon: CannonCore {
+    class ccm_weapons_f2_cannon: CannonCore {
         scope = 1;
         displayName = "F2 20mm Cannon";
         nameSound = "cannon";
@@ -29,8 +29,8 @@ class CfgWeapons {
         reloadTime = 0.083999999;
         autoFire = 1;
         magazines[] = {
-            "ecm_magazines_350Rnd_20mm_he",
-            "ecm_magazines_350Rnd_20mm_apfds"
+            "ccm_magazines_350Rnd_20mm_he",
+            "ccm_magazines_350Rnd_20mm_apfds"
         };
         modes[] = {
             "LowROF",
@@ -158,12 +158,12 @@ class CfgWeapons {
         };
     };
 
-    class ecm_weapons_gau19: HMG_127 {
+    class ccm_weapons_gau19: HMG_127 {
         scope = 1;
         displayName = "GAU-19/A";
         magazines[] = {
-            "ecm_magazines_1000_127x99",
-            "ecm_magazines_1000_127x99_Red"
+            "ccm_magazines_1000_127x99",
+            "ccm_magazines_1000_127x99_Red"
         };
         canLock = 0;
         modes[] = {

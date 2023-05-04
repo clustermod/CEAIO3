@@ -6,8 +6,8 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"ecm_main"};
-        author = "Cluster Mod Team";
+        requiredAddons[] = {"ccm_main"};
+        author = ECSTRING(common,ClusterTeam);
         authors[] = {"Eric"};
         url = ECSTRING(main,URL);
         VERSION_CONFIG;

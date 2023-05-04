@@ -4,18 +4,18 @@ class CfgMovesBasic {
     class Actions {
         class CivilStandActions;
         class CivilProneActions: CivilStandActions {
-            SecondaryWeapon = "ACE_LauncherProne";
-            weaponOn = "ACE_LauncherProne";
+            SecondaryWeapon = "CCM_LauncherProne";
+            weaponOn = "CCM_LauncherProne";
         };
         class PistolStandActions;
         class PistolProneActions: PistolStandActions {
-            SecondaryWeapon = "ACE_LauncherProne";
-            weaponOn = "ACE_LauncherProne";
+            SecondaryWeapon = "CCM_LauncherProne";
+            weaponOn = "CCM_LauncherProne";
         };
         class RifleBaseStandActions;
         class RifleProneActions: RifleBaseStandActions {
-            SecondaryWeapon = "ACE_LauncherProne";
-            weaponOn = "ACE_LauncherProne";
+            SecondaryWeapon = "CCM_LauncherProne";
+            weaponOn = "CCM_LauncherProne";
             weaponOff = "AmovPpneMstpSrasWrflDnon";
         };
         class LauncherKneelActions: NoActions {
@@ -32,30 +32,30 @@ class CfgMovesBasic {
             PlayerProne = "AmovPercMstpSrasWlnrDnon";
             Down = "AmovPercMstpSrasWlnrDnon";
         };
-        class ACE_LauncherProneActions: LauncherKneelActions {
-            StopRelaxed = "ACE_LauncherProne";
-            Default = "ACE_LauncherProne";
-            Up = "ACE_LauncherProne";
-            Crouch = "ACE_LauncherProne";
-            PlayerCrouch = "ACE_LauncherProne";
-            Down = "ACE_LauncherProne";
-            Stand = "ACE_LauncherProne";
-            PlayerStand = "ACE_LauncherProne";
+        class CCM_LauncherProneActions: LauncherKneelActions {
+            StopRelaxed = "CCM_LauncherProne";
+            Default = "CCM_LauncherProne";
+            Up = "CCM_LauncherProne";
+            Crouch = "CCM_LauncherProne";
+            PlayerCrouch = "CCM_LauncherProne";
+            Down = "CCM_LauncherProne";
+            Stand = "CCM_LauncherProne";
+            PlayerStand = "CCM_LauncherProne";
             TurnL = "AmovPpneMrunSrasWlnr_turnL";
             TurnLRelaxed = "AmovPpneMrunSrasWlnr_turnL";
             TurnR = "AmovPpneMrunSrasWlnr_turnR";
             TurnRRelaxed = "AmovPpneMrunSrasWlnr_turnR";
-            Stop = "ACE_LauncherProne";
+            Stop = "CCM_LauncherProne";
             Civil = "AmovPpneMstpSnonWnonDnon";
             CivilLying = "AmovPpneMstpSnonWnonDnon";
-            BinocOff = "ACE_LauncherProne";
+            BinocOff = "CCM_LauncherProne";
             Gear = "AinvPpneMstpSnonWnonDnon";
             BinocOn = "AwopPpneMstpSoptWbinDnon_Lnr";
             HandGunOn = "AmovPpneMstpSrasWpstDnon";
             stance = "ManStanceProne";
             ReloadRPG = "LauncherProne_Reload_Start";
             //GestureReloadRPG7[] = {"GestureReloadRPG7Kneel", "Gesture"};
-            weaponOn = "ACE_LauncherProne";
+            weaponOn = "CCM_LauncherProne";
             WeaponOff = "AmovPpneMstpSrasWrflDnon";
             WalkB = "AmovPpneMrunSrasWlnrDb";
             WalkRB = "AmovPpneMrunSrasWlnrDbr";
@@ -115,9 +115,9 @@ class CfgMovesBasic {
             PlayerTactF = "AmovPpneMrunSrasWlnrDf";
         };
         class BinocProneLnrActions: LauncherKneelActions {
-            BinocOff = "ACE_LauncherProne";
-            SecondaryWeapon = "ACE_LauncherProne";
-            weaponOn = "ACE_LauncherProne";
+            BinocOff = "CCM_LauncherProne";
+            SecondaryWeapon = "CCM_LauncherProne";
+            weaponOn = "CCM_LauncherProne";
         };
     };
 };

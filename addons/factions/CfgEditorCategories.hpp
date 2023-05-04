@@ -1,5 +1,5 @@
 class CfgEditorCategories {
-    class ecm_categories_rhodesia {
-        displayName = "ECM: Rhodesia";
+    class ccm_categories_rhodesia {
+        displayName = "CCM: Rhodesia";
     };
 };

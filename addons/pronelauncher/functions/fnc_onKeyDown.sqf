@@ -14,19 +14,19 @@
  * None
  *
  * Example:
- * [control, 5, false, true, false] call ace_pronelauncher_fnc_onKeyDown
+ * [control, 5, false, true, false] call ccm_pronelauncher_fnc_onKeyDown
  *
  * Public: No
  */
 
 params ["", "_key"];
 
-if !(isNull objectParent ECM_player) exitWith { false };
-private _launcherWeapon = secondaryWeapon ECM_player;
+if !(isNull objectParent CCM_player) exitWith { false };
+private _launcherWeapon = secondaryWeapon CCM_player;
 if (_launcherWeapon isEqualTo "") exitwith { false };
-if (currentWeapon ECM_player != _launcherWeapon) exitWith { false };
+if (currentWeapon CCM_player != _launcherWeapon) exitWith { false };
 
-private _stance = stance ECM_player;
+private _stance = stance CCM_player;
 private _keysMoveDown = actionKeys "moveDown";
 private _keysMoveUp = actionKeys "moveUp";
 private _keysProne = actionKeys "Prone";
@@ -36,15 +36,15 @@ private _keysStand = actionKeys "Stand";
 switch (toUpper _stance) do {
     case "STAND": {
         if ((_key in _keysMoveDown) || (_key in _keysProne)) then {            
-            ECM_player playMoveNow "AmovPknlMstpSrasWlnrDnon";
-            ECM_player playMove "ACE_LauncherProne";
+            CCM_player playMoveNow "AmovPknlMstpSrasWlnrDnon";
+            CCM_player playMove "CCM_LauncherProne";
             true;
         };
     };
 
     case "CROUCH": {
         if ((_key in _keysMoveDown) || (_key in _keysProne)) then {            
-            ECM_player playMoveNow "ACE_LauncherProne";
+            CCM_player playMoveNow "CCM_LauncherProne";
             true;
         };
     };
@@ -52,28 +52,28 @@ switch (toUpper _stance) do {
     case "PRONE": {
         switch (true) do {
             case (_key in _keysMoveDown): {
-                ECM_player playMoveNow "AmovPpneMstpSrasWlnrDnon";
-                ECM_player playMove "AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon";
-                ECM_player playMove "AmovPknlMstpSrasWlnrDnon_AmovPercMstpSrasWlnrDnon";
+                CCM_player playMoveNow "AmovPpneMstpSrasWlnrDnon";
+                CCM_player playMove "AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon";
+                CCM_player playMove "AmovPknlMstpSrasWlnrDnon_AmovPercMstpSrasWlnrDnon";
                 true
             };
 
             case (_key in _keysMoveUp): {
-                ECM_player playMoveNow "AmovPpneMstpSrasWlnrDnon";
-                ECM_player playMove "AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon";
+                CCM_player playMoveNow "AmovPpneMstpSrasWlnrDnon";
+                CCM_player playMove "AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon";
                 true
             };
 
             case (_key in _keysCrouch): {
-                ECM_player playMoveNow "AmovPpneMstpSrasWlnrDnon";
-                ECM_player playMove "AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon";
+                CCM_player playMoveNow "AmovPpneMstpSrasWlnrDnon";
+                CCM_player playMove "AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon";
                 true
             };
 
             case (_key in _keysStand): {
-                ECM_player playMoveNow "AmovPpneMstpSrasWlnrDnon";
-                ECM_player playMove "AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon";
-                ECM_player playMove "AmovPknlMstpSrasWlnrDnon_AmovPercMstpSrasWlnrDnon";
+                CCM_player playMoveNow "AmovPpneMstpSrasWlnrDnon";
+                CCM_player playMove "AmovPpneMstpSrasWlnrDnon_AmovPknlMstpSrasWlnrDnon";
+                CCM_player playMove "AmovPknlMstpSrasWlnrDnon_AmovPercMstpSrasWlnrDnon";
                 true
             };
 
