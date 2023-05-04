@@ -31,7 +31,7 @@ This addon is entirely open source and all contributions are welcome. Feel free 
 
 An attempt has been made to build the addon modularly so almost any *module* can easily be removed from the configuration. This way, a team can maintain it's own tailored version of **CCA3** by simply excluding any components they don't need. The entire framework has been built with customization in mind allowing mission designers to tweak it to suit their needs.
 
-It should be noted that **CMF3** has been developed with **Cluster Community** as it's focus and therefore might contain features that won't work with all playstyles.
+It should be noted that **CCA3** has been developed with **Cluster Community** as it's focus and therefore might contain features that won't work with all playstyles.
 
 ## Contributing
 You can help out with the ongoing development by looking for potential bugs in the framework, or by contributing new features. We are always welcoming new pull requests containing bug fixes, refactors and new features.
@@ -51,4 +51,4 @@ Please use our [Issue Tracker](https://github.com/Tapawingo/CCA3/issues) to repo
 </table>
 
 ## License
-**CCA3** is licensed under the GNU General Public License ([GPLv3](https://github.com/Tapawingo/CMF3/blob/master/LICENSE)).
+**CCA3** is licensed under the GNU General Public License ([GPLv3](https://github.com/Tapawingo/CCA3/blob/master/LICENSE)).
