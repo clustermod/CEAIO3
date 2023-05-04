@@ -30,6 +30,7 @@ preset = "Hemtt"
 [hemtt.launch]
 workshop = [
     "450814997", # CBA_A3's Workshop ID
+    "2369477168", # Advanced Developer Tools Workshop ID
 ]
 parameters = [
     "-skipIntro",
