@@ -11,7 +11,7 @@ include = [
     "README.md",
     "AUTHORS.txt",
     "LICENSE",
-    "logo_cca_ca.paa",
+    "logo_cem_ca.paa",
     "meta.cpp",
 ]
 exclude = [

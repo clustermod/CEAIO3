@@ -36,6 +36,11 @@
     </Key>
     <Key ID="STR_cem_movement_ShowStanceSliderTooltip">
       <English>Shows the players stance slider in the bottom left.</English>
+    <Key ID="STR_cem_movement_fadeIndicator">
+      <English>Fade Indicator</English>
+    </Key>
+    <Key ID="STR_cem_movement_fadeIndicatorTooltip">
+      <English>Fades the indicator out after use.</English>
     </Key>
   </Package>
 </Project>
