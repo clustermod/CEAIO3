@@ -1,1 +1,1 @@
-#include "\z\ccm\addons\blank\script_component.hpp"
+#include "\z\cca\addons\blank\script_component.hpp"
