@@ -5,7 +5,8 @@ class CfgPatches {
 		url="http://www.facebook.com/armscormod";
 		requiredAddons[] = {
 			"A3_Air_F",
-			"cca_armscore_compat"
+			"cca_armscore_compat",
+			"ccm_factions"
 		};
 		requiredVersion=1;
 		units[] = {
@@ -64,10 +65,10 @@ class CfgVehicles
 		scope=2;
 		scopeCurator=2;
 		side=1;
-		editorCategory="cca_categories_rhodesia";
-		editorSubCategory="cca_categories_rhodesia_helicopters";
-		faction="cca_factions_rhodesianFireforce";
-		vehicleClass="cca_factions_rhodesianFireforce_helicopters";
+		editorCategory="ccm_categories_rhodesia";
+		editorSubCategory="ccm_categories_rhodesia_helicopters";
+		faction="ccm_factions_rhodesianFireforce";
+		vehicleClass="ccm_factions_rhodesianFireforce_helicopters";
 		editorPreview="ARMSCor_Alouette_III\Data\prevAlouette.paa";
 		radarType=8;
 		reportOwnPosition=0;
@@ -901,10 +902,10 @@ class CfgVehicles
 		scope=2;
 		scopeCurator=2;
 		side=1;
-		editorCategory="cca_categories_rhodesia";
-		editorSubCategory="cca_categories_rhodesia_helicopters";
-		faction="cca_factions_rhodesianFireforce";
-		vehicleClass="cca_factions_rhodesianFireforce_helicopters";
+		editorCategory="ccm_categories_rhodesia";
+		editorSubCategory="ccm_categories_rhodesia_helicopters";
+		faction="ccm_factions_rhodesianFireforce";
+		vehicleClass="ccm_factions_rhodesianFireforce_helicopters";
 		model="\ARMSCor_Alouette_III\AlouetteIII_SF.p3d";
 		crew="";
 		accuracy=1.5;
@@ -977,10 +978,10 @@ class CfgVehicles
 		scope=2;
 		scopeCurator=2;
 		side=1;
-		editorCategory="cca_categories_rhodesia";
-		editorSubCategory="cca_categories_rhodesia_helicopters";
-		faction="cca_factions_rhodesianFireforce";
-		vehicleClass="cca_factions_rhodesianFireforce_helicopters";
+		editorCategory="ccm_categories_rhodesia";
+		editorSubCategory="ccm_categories_rhodesia_helicopters";
+		faction="ccm_factions_rhodesianFireforce";
+		vehicleClass="ccm_factions_rhodesianFireforce_helicopters";
 		transportSoldier=3;
 		model="\ARMSCor_Alouette_III\AlouetteIII_X12.p3d";
 		weapons[]=
@@ -1027,10 +1028,10 @@ class CfgVehicles
 		scope=2;
 		scopeCurator=2;
 		side=1;
-		editorCategory="cca_categories_rhodesia";
-		editorSubCategory="cca_categories_rhodesia_helicopters";
-		faction="cca_factions_rhodesianFireforce";
-		vehicleClass="cca_factions_rhodesianFireforce_helicopters";
+		editorCategory="ccm_categories_rhodesia";
+		editorSubCategory="ccm_categories_rhodesia_helicopters";
+		faction="ccm_factions_rhodesianFireforce";
+		vehicleClass="ccm_factions_rhodesianFireforce_helicopters";
 		transportSoldier=3;
 		model="\ARMSCor_Alouette_III\AlouetteIII_X20.p3d";
 		weapons[]=
@@ -1076,10 +1077,10 @@ class CfgVehicles
 		scope=2;
 		scopeCurator=2;
 		side=1;
-		editorCategory="cca_categories_rhodesia";
-		editorSubCategory="cca_categories_rhodesia_helicopters";
-		faction="cca_factions_rhodesianFireforce";
-		vehicleClass="cca_factions_rhodesianFireforce_helicopters";
+		editorCategory="ccm_categories_rhodesia";
+		editorSubCategory="ccm_categories_rhodesia_helicopters";
+		faction="ccm_factions_rhodesianFireforce";
+		vehicleClass="ccm_factions_rhodesianFireforce_helicopters";
 		transportSoldier=1;
 		model="\ARMSCor_Alouette_III\AlouetteIII_KCAR.p3d";
 		availableForSupportTypes[]=
@@ -1147,10 +1148,10 @@ class CfgVehicles
 		author="$STR_ARMSCor_author_petracephas";
 		dlc="ARMSCor";
 		side=1;
-		editorCategory="cca_categories_rhodesia";
-		editorSubCategory="cca_categories_rhodesia_helicopters";
-		faction="cca_factions_rhodesianFireforce";
-		vehicleClass="cca_factions_rhodesianFireforce_helicopters";
+		editorCategory="ccm_categories_rhodesia";
+		editorSubCategory="ccm_categories_rhodesia_helicopters";
+		faction="ccm_factions_rhodesianFireforce";
+		vehicleClass="ccm_factions_rhodesianFireforce_helicopters";
 	};
 	class ARMSCor_AlouetteIII_X20: ARMSCor_AlouetteIII_X20_ZADF_I
 	{
@@ -1161,10 +1162,10 @@ class CfgVehicles
 		author="$STR_ARMSCor_author_petracephas";
 		dlc="ARMSCor";
 		side=1;
-		editorCategory="cca_categories_rhodesia";
-		editorSubCategory="cca_categories_rhodesia_helicopters";
-		faction="cca_factions_rhodesianFireforce";
-		vehicleClass="cca_factions_rhodesianFireforce_helicopters";
+		editorCategory="ccm_categories_rhodesia";
+		editorSubCategory="ccm_categories_rhodesia_helicopters";
+		faction="ccm_factions_rhodesianFireforce";
+		vehicleClass="ccm_factions_rhodesianFireforce_helicopters";
 	};
 	class ARMSCor_AlouetteIII_X12: ARMSCor_AlouetteIII_X12_ZADF_I
 	{
@@ -1175,10 +1176,10 @@ class CfgVehicles
 		author="$STR_ARMSCor_author_petracephas";
 		dlc="ARMSCor";
 		side=1;
-		editorCategory="cca_categories_rhodesia";
-		editorSubCategory="cca_categories_rhodesia_helicopters";
-		faction="cca_factions_rhodesianFireforce";
-		vehicleClass="cca_factions_rhodesianFireforce_helicopters";
+		editorCategory="ccm_categories_rhodesia";
+		editorSubCategory="ccm_categories_rhodesia_helicopters";
+		faction="ccm_factions_rhodesianFireforce";
+		vehicleClass="ccm_factions_rhodesianFireforce_helicopters";
 	};
 	class ARMSCor_AlouetteIII_SF_I: ARMSCor_AlouetteIII_SF_ZADF_I
 	{
@@ -1189,10 +1190,10 @@ class CfgVehicles
 		author="$STR_ARMSCor_author_petracephas";
 		dlc="ARMSCor";
 		side=1;
-		editorCategory="cca_categories_rhodesia";
-		editorSubCategory="cca_categories_rhodesia_helicopters";
-		faction="cca_factions_rhodesianFireforce";
-		vehicleClass="cca_factions_rhodesianFireforce_helicopters";
+		editorCategory="ccm_categories_rhodesia";
+		editorSubCategory="ccm_categories_rhodesia_helicopters";
+		faction="ccm_factions_rhodesianFireforce";
+		vehicleClass="ccm_factions_rhodesianFireforce_helicopters";
 	};
 	class ARMSCor_AlouetteIII_I: ARMSCor_AlouetteIII_SADF_I
 	{
@@ -1203,10 +1204,10 @@ class CfgVehicles
 		author="$STR_ARMSCor_author_petracephas";
 		dlc="ARMSCor";
 		side=1;
-		editorCategory="cca_categories_rhodesia";
-		editorSubCategory="cca_categories_rhodesia_helicopters";
-		faction="cca_factions_rhodesianFireforce";
-		vehicleClass="cca_factions_rhodesianFireforce_helicopters";
+		editorCategory="ccm_categories_rhodesia";
+		editorSubCategory="ccm_categories_rhodesia_helicopters";
+		faction="ccm_factions_rhodesianFireforce";
+		vehicleClass="ccm_factions_rhodesianFireforce_helicopters";
 	};
 };
 class cfgMods

@@ -13,6 +13,7 @@ include = [
     "LICENSE",
     "logo_cca_ca.paa",
     "meta.cpp",
+    "addons/ARMSCor_Alouette_III.pbo",
 ]
 exclude = [
     "addons/*/README.md"
@@ -33,6 +34,7 @@ preset = "Hemtt"
 [hemtt.launch]
 workshop = [
     "450814997", # CBA_A3's Workshop ID
+    "1888792228", # CCM3s Workshop ID
     "2369477168", # Advanced Developer Tools Workshop ID
 ]
 parameters = [
