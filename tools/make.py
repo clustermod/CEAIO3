@@ -5,13 +5,14 @@ import tomli
 import sys
 import subprocess
 import argparse
+import re
 
 # MAKE
 # Author: Tapawingo
 # ---------------------
 # Builds arma projects using HEMTT.
 
-__version__ = "0.0.0.1"
+__version__ = "0.0.2"
 
 ######## ARGUMENTS AND OPTIONS #########
 parser = argparse.ArgumentParser(description = "Builds an Arma 3 addon using hemtt")
@@ -53,18 +54,17 @@ def build_increment():
     with open(script_version_path, 'r') as file :
       script_version = file.read()
     
-    major_index = script_version.find("#define MAJOR ") + 14;
-    minor_index = script_version.find("#define MINOR ") + 14;
-    patch_index = script_version.find("#define PATCHLVL ") + 17;
-    build_index = script_version.find("#define BUILD ") + 14;
-    script_build_version = int(script_version[build_index])
+    script_major_version = int(re.search(r'\#define MAJOR (\d+)', script_version).group(1))
+    script_minor_version = int(re.search(r'\#define MINOR (\d+)', script_version).group(1))
+    script_patch_version = int(re.search(r'\#define PATCHLVL (\d+)', script_version).group(1))
+    script_build_version = int(re.search(r'\#define BUILD (\d+)', script_version).group(1))
     script_build_version += 1
-    script_version = script_version[:build_index] + str(script_build_version) + script_version[build_index + 1:]
+    script_version = re.sub(r'\#define BUILD \d+', "#define BUILD {0}".format(str(script_build_version)), script_version)
 
     with open(script_version_path, 'w') as file:
       file.write(script_version)
     
-    return "{0}.{1}.{2}.{3}".format(script_version[major_index], script_version[minor_index], script_version[patch_index], script_version[build_index]);
+    return "{0}.{1}.{2}.{3}".format(script_major_version, script_minor_version, script_patch_version, script_build_version);
 
 # Build release
 def addon_release():
