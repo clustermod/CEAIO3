@@ -15,6 +15,7 @@ include = [
     "meta.cpp",
     "addons/*.pbo",
     "addons/*.bisign",
+    "keys/*.bikey",
 ]
 exclude = [
     "addons/*/README.md"
